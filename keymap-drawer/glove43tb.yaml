@@ -28,13 +28,13 @@ layers:
   - C
   - V
   - B
-  - ':'
-  - ;
+  - {t: ':', h: LCTRL}
+  - {t: ;, h: RIGHT SHIFT}
   - N
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RCTRL}
   - LCTRL
   - LEFT WIN
   - LEFT ALT
@@ -145,7 +145,7 @@ layers:
   - {t: ▽, type: trans}
   - HOME
   - LEFT ARROW
-  - DOWN ARROW
+  - '&mkp MB1'
   - RIGHT ARROW
   - END
   - {t: ▽, type: trans}
@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
-  - {t: ▽, type: trans}
+  - DOWN ARROW
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -240,8 +240,8 @@ layers:
   - Gui+E
   - Gui+R
   - '&mkp MB1'
-  - '&mkp MB2'
   - '&mkp MB3'
+  - '&mkp MB2'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
