@@ -109,7 +109,7 @@ layers:
   - '!'
   - '@'
   - '#'
-  - $
+  - {t: INT YEN, h: $}
   - '%'
   - {t: KP 0, h: LEFT SHIFT}
   - KP 1
@@ -282,10 +282,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
+  - PLAY PAUSE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -294,7 +294,7 @@ layers:
   - '&ind_con'
   - '&ind_bat'
   - '&bootloader'
-  - {t: ▽, type: trans}
+  - KP NLCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
