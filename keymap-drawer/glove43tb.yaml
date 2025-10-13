@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove43tb}
 layers:
   default:
-  - Q
+  - A
   - W
   - E
   - R
